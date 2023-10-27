@@ -1,0 +1,1 @@
+{"resourceType":"ImplementationGuide","url":"/guide/IGSample4?version=current","name":"IGSample","status":"draft","fhirVersion":["4.0.0"],"definition":{"page":{"nameUrl":"Home","title":"Home","generation":"generated","page":[{"nameUrl":"Home/isthis.page.md","title":"isthis","generation":"markdown"}]}}}

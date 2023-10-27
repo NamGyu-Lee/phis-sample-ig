@@ -1,0 +1,1279 @@
+{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "ImplementationGuide-hl7.fhir.kr.core.json",
+      "resourceType" : "ImplementationGuide",
+      "id" : "hl7.fhir.kr.core",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ImplementationGuide/hl7.fhir.kr.core",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "CapabilityStatement-krcore-capabilitystatement-client.json",
+      "resourceType" : "CapabilityStatement",
+      "id" : "krcore-capabilitystatement-client",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CapabilityStatement/krcore-capabilitystatement-client",
+      "version" : "1.0.1",
+      "kind" : "requirements"
+    },
+    {
+      "filename" : "CapabilityStatement-krcore-capabilitystatement-server.json",
+      "resourceType" : "CapabilityStatement",
+      "id" : "krcore-capabilitystatement-server",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CapabilityStatement/krcore-capabilitystatement-server",
+      "version" : "1.0.1",
+      "kind" : "requirements"
+    },
+    {
+      "filename" : "CodeSystem-hira-edi-material.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-edi-material",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/hira-edi-material",
+      "version" : "1.0.1",
+      "content" : "not-present"
+    },
+    {
+      "filename" : "CodeSystem-hira-edi-medication.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-edi-medication",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/hira-edi-medication",
+      "version" : "1.0.1",
+      "content" : "not-present"
+    },
+    {
+      "filename" : "CodeSystem-hira-edi-procedure.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-edi-procedure",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/hira-edi-procedure",
+      "version" : "1.0.1",
+      "content" : "not-present"
+    },
+    {
+      "filename" : "CodeSystem-hira-healthcare-organization-types.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-healthcare-organization-types",
+      "url" : "http://www.hl7korea.or.kr/CodeSystem/hira-healthcare-organization-types",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-hira-insurance-types.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-insurance-types",
+      "url" : "http://www.hl7korea.or.kr/CodeSystem/hira-insurance-types",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-hira-medical-department.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hira-medical-department",
+      "url" : "http://www.hl7korea.or.kr/CodeSystem/hira-medical-department",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-kostat-kcd-8.json",
+      "resourceType" : "CodeSystem",
+      "id" : "kostat-kcd-8",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/kostat-kcd-8",
+      "version" : "1.0.1",
+      "content" : "not-present"
+    },
+    {
+      "filename" : "CodeSystem-kpis-kdcode.json",
+      "resourceType" : "CodeSystem",
+      "id" : "kpis-kdcode",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/kpis-kdcode",
+      "version" : "1.0.1",
+      "content" : "not-present"
+    },
+    {
+      "filename" : "CodeSystem-krcore-condition-category-types.json",
+      "resourceType" : "CodeSystem",
+      "id" : "krcore-condition-category-types",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/krcore-condition-category-types",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-krcore-vcnt-types.json",
+      "resourceType" : "CodeSystem",
+      "id" : "krcore-vcnt-types",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/CodeSystem/krcore-vcnt-types",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-mohw-practitioner-qualification-types.json",
+      "resourceType" : "CodeSystem",
+      "id" : "mohw-practitioner-qualification-types",
+      "url" : "http://www.hl7korea.or.kr/CodeSystem/mohw-practitioner-qualification-types",
+      "version" : "1.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-edi-material.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-edi-material",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-edi-medication.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-edi-medication",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-edi-procedure.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-edi-procedure",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-healthcare-organization-identifier.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-healthcare-organization-identifier",
+      "kind" : "identifier"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-healthcare-organization-types.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-healthcare-organization-types",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-insurance-types.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-insurance-types",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-hira-medical-department.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-hira-medical-department",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-kdca-vcnt-types.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-kdca-vcnt-types",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-kpis-kdcode.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-kpis-kdcode",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "NamingSystem-ns-mohw-md-license-id.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-mohw-md-license-id",
+      "kind" : "identifier"
+    },
+    {
+      "filename" : "NamingSystem-ns-mohw-practitioner-qualification-types.json",
+      "resourceType" : "NamingSystem",
+      "id" : "ns-mohw-practitioner-qualification-types",
+      "kind" : "codesystem"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-category",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-category",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-clinical-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-clinical-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-clinical-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-manifestation.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-manifestation",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-manifestation",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-onset.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-onset",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-onset",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-allergyintolerance-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-allergyintolerance-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-allergyintolerance-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-category",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-category",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-clinical-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-clinical-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-clinical-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-encounter.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-encounter",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-encounter",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-onset-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-onset-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-onset-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-condition-recorded-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-condition-recorded-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-condition-recorded-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-category",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-category",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-issued.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-issued",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-issued",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-performer.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-performer",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-performer",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-request-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-request-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-request-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-result.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-result",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-result",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-diagnosticreport-study.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-diagnosticreport-study",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-diagnosticreport-study",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-class.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-class",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-class",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-insurance-type.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-insurance-type",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-insurance-type",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-participant.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-participant",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-participant",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-service-provider.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-service-provider",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-service-provider",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-encounter-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-encounter-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-encounter-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-imagingstudy-modality.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-imagingstudy-modality",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-imagingstudy-modality",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-imagingstudy-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-imagingstudy-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-imagingstudy-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-imagingstudy-series.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-imagingstudy-series",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-imagingstudy-series",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-imagingstudy-started.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-imagingstudy-started",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-imagingstudy-started",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-imagingstudy-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-imagingstudy-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-imagingstudy-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-immunization-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-immunization-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-immunization-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-immunization-dose-number.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-immunization-dose-number",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-immunization-dose-number",
+      "version" : "1.0.1",
+      "type" : "number"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-immunization-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-immunization-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-immunization-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-immunization-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-immunization-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-immunization-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-immunization-vaccine-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-immunization-vaccine-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-immunization-vaccine-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medication-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medication-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medication-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medication-ingredient-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medication-ingredient-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medication-ingredient-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medicationrequest-authoredon.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medicationrequest-authoredon",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medicationrequest-authoredon",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medicationrequest-intent.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medicationrequest-intent",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medicationrequest-intent",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medicationrequest-medication.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medicationrequest-medication",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medicationrequest-medication",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medicationrequest-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medicationrequest-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medicationrequest-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-medicationrequest-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-medicationrequest-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-medicationrequest-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-category",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-category",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-code-value-concept.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-code-value-concept",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-code-value-concept",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-code-value-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-code-value-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-code-value-date",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-code-value-quantity.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-code-value-quantity",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-code-value-quantity",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-code-value-string.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-code-value-string",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-code-value-string",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-code-value-concept.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-code-value-concept",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-code-value-concept",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-code-value-quantity.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-code-value-quantity",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-code-value-quantity",
+      "version" : "1.0.1",
+      "type" : "composite"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-data-absent-reason.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-data-absent-reason",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-data-absent-reason",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-value-concept.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-value-concept",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-value-concept",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-component-value-quantity.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-component-value-quantity",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-component-value-quantity",
+      "version" : "1.0.1",
+      "type" : "quantity"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-data-absent-reason.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-data-absent-reason",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-data-absent-reason",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-issued.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-issued",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-issued",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-performer.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-performer",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-performer",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-value-concept.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-value-concept",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-value-concept",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-value-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-value-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-value-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-value-quantity.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-value-quantity",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-value-quantity",
+      "version" : "1.0.1",
+      "type" : "quantity"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-observation-value-string.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-observation-value-string",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-observation-value-string",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-organization-address.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-organization-address",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-organization-address",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-organization-identifier.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-organization-identifier",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-organization-identifier",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-organization-name.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-organization-name",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-organization-name",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-organization-telecom.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-organization-telecom",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-organization-telecom",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-organization-type.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-organization-type",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-organization-type",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-address.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-address",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-address",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-birthdate.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-birthdate",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-birthdate",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-gender.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-gender",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-gender",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-id",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-id",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-identifier.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-identifier",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-identifier",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-name.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-name",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-name",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-patient-telecom.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-patient-telecom",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-patient-telecom",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitioner-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitioner-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitioner-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitioner-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitioner-id",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitioner-id",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitioner-identifier.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitioner-identifier",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitioner-identifier",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitioner-name.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitioner-name",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitioner-name",
+      "version" : "1.0.1",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitionerrole-organization.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitionerrole-organization",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitionerrole-organization",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitionerrole-practitioner.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitionerrole-practitioner",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitionerrole-practitioner",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitionerrole-role.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitionerrole-role",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitionerrole-role",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-practitionerrole-specialty.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-practitionerrole-specialty",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-practitionerrole-specialty",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-procedure-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-procedure-code",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-procedure-code",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-procedure-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-procedure-date",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-procedure-date",
+      "version" : "1.0.1",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-procedure-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-procedure-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-procedure-patient",
+      "version" : "1.0.1",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-krcore-sp-procedure-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "krcore-sp-procedure-status",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/SearchParameter/krcore-sp-procedure-status",
+      "version" : "1.0.1",
+      "type" : "token"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-allergyintolerance.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-allergyintolerance",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-allergyintolerance",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "AllergyIntolerance"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-bloodpressure.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-bloodpressure",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-bloodpressure",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-bodyheight.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-bodyheight",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-bodyheight",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-bodytemperature.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-bodytemperature",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-bodytemperature",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-bodyweight.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-bodyweight",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-bodyweight",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-condition-chief-complaint.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-condition-chief-complaint",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-condition-chief-complaint",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Condition"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-condition-encounter-diagnosis.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-condition-encounter-diagnosis",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-condition-encounter-diagnosis",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Condition"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-diagnosticreport-diagnostic-imaging.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-diagnosticreport-diagnostic-imaging",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-diagnosticreport-diagnostic-imaging",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "DiagnosticReport"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-diagnosticreport-function-tests.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-diagnosticreport-function-tests",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-diagnosticreport-function-tests",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "DiagnosticReport"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-diagnosticreport-laboratory-results.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-diagnosticreport-laboratory-results",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-diagnosticreport-laboratory-results",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "DiagnosticReport"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-diagnosticreport-pathology-results.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-diagnosticreport-pathology-results",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-diagnosticreport-pathology-results",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "DiagnosticReport"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-encounter.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-encounter",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-encounter",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Encounter"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-healthcare-organization.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-healthcare-organization",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-healthcare-organization",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Organization"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-heartrate.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-heartrate",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-heartrate",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-imagingstudy.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-imagingstudy",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-imagingstudy",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "ImagingStudy"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-immunization.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-immunization",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-immunization",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Immunization"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-insuranceTypes.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-insuranceTypes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-insuranceTypes",
+      "version" : "1.0.1",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-medical-doctor-role.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-medical-doctor-role",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-medical-doctor-role",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "PractitionerRole"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-medical-doctor.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-medical-doctor",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-medical-doctor",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Practitioner"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-medication.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-medication",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-medication",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Medication"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-medicationrequest.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-medicationrequest",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-medicationrequest",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "MedicationRequest"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-observation-function-test.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-observation-function-test",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-observation-function-test",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-observation-laboratory-result.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-observation-laboratory-result",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-observation-laboratory-result",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-patient.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-patient",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-patient",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Patient"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-procedure.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-procedure",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-procedure",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Procedure"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-pulseoximetry.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-pulseoximetry",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-pulseoximetry",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-respiratoryrate.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-respiratoryrate",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-respiratoryrate",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-roadNameAddress.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-roadNameAddress",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-roadNameAddress",
+      "version" : "1.0.1",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-testRequestDateTime.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-testRequestDateTime",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-testRequestDateTime",
+      "version" : "1.0.1",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    },
+    {
+      "filename" : "StructureDefinition-krcore-vitalsigns.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "krcore-vitalsigns",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/StructureDefinition/krcore-vitalsigns",
+      "version" : "1.0.1",
+      "kind" : "resource",
+      "type" : "Observation"
+    },
+    {
+      "filename" : "ValueSet-krcore-atc-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-atc-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-atc-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-condition-category-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-condition-category-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-condition-category-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-doctor-qualification-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-doctor-qualification-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-doctor-qualification-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-edi-material-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-edi-material-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-edi-material-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-edi-medication-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-edi-medication-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-edi-medication-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-edi-procedure-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-edi-procedure-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-edi-procedure-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-healthcare-organization-type-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-healthcare-organization-type-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-healthcare-organization-type-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-insurance-types-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-insurance-types-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-insurance-types-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-kcd8-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-kcd8-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-kcd8-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-korea-drug-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-korea-drug-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-korea-drug-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-medicaldepartment-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-medicaldepartment-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-medicaldepartment-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-vcnt-type-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-vcnt-type-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-vcnt-type-codes",
+      "version" : "1.0.1"
+    },
+    {
+      "filename" : "ValueSet-krcore-vital-signs-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "krcore-vital-signs-codes",
+      "url" : "http://www.hl7korea.or.kr/fhir/krcore/ValueSet/krcore-vital-signs-codes",
+      "version" : "1.0.1"
+    }
+  ]
+}

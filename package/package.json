@@ -1,0 +1,13 @@
+{
+  "name": "phis.ig.createtest",
+  "version": "0.0.3",
+  "description": "2023. 10. 26. FHIR IG 생성 테스트 목적",
+  "author": "emplng",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.kr.core": "1.0.1",
+    "hl7.fhir.r4.core": "4.0.1"
+  }
+}
